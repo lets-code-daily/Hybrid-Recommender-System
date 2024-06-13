@@ -35,8 +35,8 @@ def recommend():
         item = []
         temp_df = books[books['Book-Title'] == pt.index[i[0]]]
         item.extend(list(temp_df.drop_duplicates('Book-Title')['Book-Title'].values))
-        item.extend(list(temp_df.drop_duplicates('Book-Title')['Book-Author'].values))
-        item.extend(list(temp_df.drop_duplicates('Book-Title')['Image-URL-M'].values))
+        # item.extend(list(temp_df.drop_duplicates('Book-Title')['Book-Author'].values))
+        # item.extend(list(temp_df.drop_duplicates('Book-Title')['Image-URL-M'].values))
 
         data.append(item)
 
