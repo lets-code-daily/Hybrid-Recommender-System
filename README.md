@@ -1,3 +1,9 @@
+# How to run the recommender
+- clone the repo into your local environment
+- write 'pip install -r requirements.txt' to install all requirements
+- and run the app.py file which will generate link to the recommender on localhost
+- then you can use the hybrid recommender system
+
 # Hybrid-Recommender-System
 Recommendation system for movies based on combined techniques of collaborative filtering as well as content based filtering
 
